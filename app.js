@@ -20,6 +20,7 @@ m.mount(document.body, {
       m.redraw();
     });
 
+    ctrl.myPlayer.onDisconnect().remove();
     return ctrl;
   },
   view(ctrl) {
